@@ -4,7 +4,9 @@
 Analyze credit card transaction data to understand customer engagement, spending behavior, and revenue contribution in order to support customer growth and retention decisions.
 
 ## Dataset
-Transaction-level credit card data containing customer IDs, transaction amounts, dates, and spending categories. Multiple transactions exist per customer, requiring transformation to customer-level metrics.
+Transaction-level credit card data containing credit_card _num, transaction amounts, dates, and spending categories. Multiple transactions exist per customer, requiring transformation to customer-level metrics.
+
+Note: The raw dataset used in this project is large in size and therefore has not been uploaded to this repository. A sample/processed version of the data is included for reference and reproducibility.
 
 ## Tools & Technologies
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
